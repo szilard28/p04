@@ -4,10 +4,10 @@ szam1= int(input('Adja meg az egyik számot! '))
 szam2= int(input('Adja meg a masik szamot! '))
 szam3= int(input('Adja meg a harmadik számot! '))
 
-if szam1 < szam2: 
+if szam1 < szam2 < szam3: 
   print('Az első szám a legkisebb' )
 
-elif szam2 < szam1:
+elif szam3 < szam2 < szam1 :
   print('A második a legkisebb')
 
 else:
